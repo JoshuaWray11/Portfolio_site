@@ -1,0 +1,983 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-x: hidden; */
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.container {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; 
+    background: linear-gradient(180deg, #D9DDFD 0%, #FFFFFF 100%);
+}
+
+/* navbar starts */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #12376e;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+}
+
+
+
+.nav-links:hover {
+    color: #4056F4;
+}
+
+
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    /* z-index: 1; */
+} 
+
+ .burger div {
+    width: 2.5rem;
+    height: .3rem;
+    background-color:#000000;
+    margin: .5rem;
+    transition: all 0.3s ease;
+}  
+
+
+/* navbar end */
+
+/* heeader start */
+
+.header {
+    /* height: 100vh; */
+}
+
+.header-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.header-name-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 130%;
+    color: #333333;
+}
+
+.header-name-2 {
+    color:#4056F4;
+}
+
+.sub-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 130%;
+    color: #333333;
+    padding-top: 2rem;
+}
+
+.para-statement {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    padding: 3rem 0px;
+}
+
+.header-btn-parent {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-btn-1 {
+    width: 18.3rem;
+    height: 5.0rem;
+    border-radius: .8rem;
+    border: none;
+    outline: none;
+    /* padding: 16px, 24px, 16px, 24px; */
+    margin-right: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4056F4;
+    cursor: pointer;
+}
+
+.header-btn-2 {
+    width: 18.3rem;
+    height: 5.0rem;
+    border-radius: .8rem;
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #4056F4;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.header-image {
+    position: absolute;
+    Width: 59.2rem;
+    Height: 51.74rem;
+    right: 5%;
+}
+/* header end */
+
+/* about-me starts */
+
+.about-me {
+   /* height: 100vh; */
+}
+
+.about-me-para {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #F7F7F7;
+    text-transform: uppercase;
+}
+
+.about-me-content-1 {
+    height: 50vh;
+    min-height: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #4056F4;
+}
+
+.about-me-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.0rem;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.about-me-description {
+    margin: 0 5rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #F7F7F7;
+}
+
+.about-me-content-2 {
+    display: flex;
+    margin: 0 5rem;
+    margin-top: 5rem;
+    flex-direction: row;
+}
+
+.about-me-sub-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 130%;
+}
+
+.experience {
+    width: 50%;
+}
+
+.experience-sub-heading {
+   margin-left: 2rem;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.8rem;
+   line-height: 130%;
+}
+
+.experience-img {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.about-me-1 {
+    margin-left: 7rem;
+}
+
+.experiece-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 150%;
+    margin-bottom: 1rem;
+}
+
+.experiece-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #858585;
+}
+
+.skills {
+    width: 50%;
+}
+
+.skills-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.logo-images {
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    border-radius: .8rem;
+}
+
+/* about-me ends */
+
+/* project starts */
+
+.projects {
+    /* height: 100vh; */
+}
+
+.project-para {
+    margin-left: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    line-height: 150%;
+    
+}
+
+.project-heading {
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    font-size: 4.0rem;
+    line-height: 130%;
+    color: #333333;
+}
+
+.project-wrapper {
+    display: flex;
+    margin-left: 5rem;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+}
+
+.project-img {
+    width: 90%; 
+}
+
+.project-card {
+    width: 50%;
+}
+
+.project-content {
+    /* padding: 2rem; */
+    margin: 2rem;
+}
+
+.project-card-heading {
+    margin: 1rem 0; 
+}
+
+.project-card-description {
+    margin: 1.5rem 0; 
+    width: 80%;
+}
+
+.project-card-btn {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 1.5rem;
+    background: #FFFFFF;
+    border: 1px solid #4056F4;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: .8rem;
+    height: 34px;
+    width: 128px;
+    padding: 8px, 16px, 8px, 16px;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    color: #4056F4;
+    cursor: pointer;
+}
+
+/* project ends */
+
+ /* contact starts */
+
+ .contact {
+    /* height: 100vh; */
+ }
+
+.contact-content {
+     display: flex;
+     flex-direction: column;
+     background-color: #D9DDFD;
+     min-height: 70vh;
+}
+
+.contact-para {
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #858585;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.contact-heading {
+    font-weight: bold;
+    font-size: 4.0rem;
+    line-height: 130%;
+    color: #333333;
+    margin-left: 5rem;
+}
+
+.contact-description {
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 45%;
+}
+
+.contact-btn-parent {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.conatct-btn {
+    width: 11.6rem;
+    height: 5rem;
+    border: none;
+    border-radius: .8rem;
+    outline: none;
+    background-color: #4056F4;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contact-icon {
+    margin: .5rem;
+}
+
+.contact-image {
+    width: 51.299rem;
+    height: 34.588rem;
+    position: absolute;
+    right: 5%;
+    margin-top: 5rem;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #ffffff;
+    padding: 3rem 5rem;
+    border-radius: .8rem;
+    box-shadow: 0 .2rem .4rem rgba(0,0,0, 0.2);
+    width: 40rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+.modal h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    line-height: 130%;
+    color: #333333;
+}
+
+.modal p {
+    font-size: 2.5rem;
+    opacity: 0.7;
+    color: #4056F4;
+    font-weight: bold;
+}
+
+#email-close {
+    margin-top: 2rem;
+    border: transparent;
+    background-color: #ffffff;
+    outline: none;
+}
+
+#phone-close {
+    margin-top: 2rem;
+    border: transparent;
+    background-color: #ffffff;
+    outline: none;
+}
+
+
+ /* contact ends */
+
+ /* footer starts */
+
+.footer-content {
+    min-height: 30vh;
+    background-color: #4056F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    margin-left: 1.5rem;
+}
+
+.trade-mark {
+    margin-top: 2rem;
+    /* margin-left: 2rem;  */
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+/* footer ends */
+
+
+/* responsive media queries */
+
+@media screen and (max-width: 1200px) {
+
+    .header-content {
+        justify-content: flex-start;
+        margin-top: 20rem;
+        margin-right: 0;
+    }
+
+    .header-image {
+        display: flex;
+        justify-content: center;
+        /* bottom: 0; */
+        height: 40rem;
+        right: 0;
+        bottom: -20rem;
+        width: 100%;
+    }
+
+    .header-computer-image {
+        /* width: 50rem; */
+        height: 40rem;
+    }
+
+    /* .header-computer-image {
+       width: 60rem;
+    } */
+
+    .contact-image {
+        width: 45rem;
+        height: 29rem;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .header-content {
+        justify-content: flex-start;
+        margin-top: 5rem;
+        margin-right: 0;
+    }
+
+    .header-image {
+        display: flex;
+        justify-content: center;
+        width: 10rem;
+        height: 15rem;
+        right: 9rem;
+        bottom: -5rem;
+    }
+
+    .about-me-description {
+        font-size: 1.2rem;
+    }
+
+    .header-image {
+        width: 30rem;
+    }
+
+    .header-computer-image {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .contact-image {
+        width: 55rem;
+        height: 35rem;
+        position: relative;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 899px) {
+
+    .contact-image {
+        height: 15rem;
+        width: 25rem;
+        right: -15rem;
+        top: -25rem;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+     .burger {
+        display: block;
+        cursor: pointer;
+        z-index: 1;
+    }  
+
+    .nav-list  {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        width: 100%;
+        opacity: 1;
+        background-color:#ffffff;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform .5s ease-in;
+        overflow-x: hidden;
+        z-index: 1;
+    }
+
+    .nav-list li {
+        opacity: 0;
+    }
+
+    .nav-links {
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+       margin-left: auto;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+        overflow-x: hidden;
+        display: flex;
+        overflow-y: hidden;
+
+    }
+
+    @keyframes navLinkFade {
+        from { 
+            opacity: 0;
+            transform: translate(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .toggle .line-1 {
+        transform: rotate(-45deg) translate(-.5rem, .6rem);
+    }
+    
+    .toggle .line-2 {
+        opacity: 0;
+    }
+    
+    .toggle .line-3 {
+        transform: rotate(45deg) translate(-.5rem, -.6rem);
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 649px) {
+
+    .contact-image {
+        height: 15rem;
+        width: 25rem;
+        right: -15rem;
+        top: -25rem;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+
+    /* .navbar {
+        display: none;
+    } */
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+
+    .header-image {
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+        height: 28rem;
+        right: 0;
+        width: 100%;
+        /* height: 286rem; */
+    }
+
+    .header-computer-image {
+        height: 20rem;
+    }
+
+    .header-content {
+       justify-content: flex-start;
+       margin-top: 5rem;
+       margin-right: 0;
+       margin-left: 2.5rem;
+    }
+
+    .header-btn-1 {
+        width: 15.97rem;
+    }
+
+    .header-btn-2 {
+        width: 15.97rem;
+    }
+
+    .about-me-heading {
+        font-size: 3.2rem;
+    }
+  
+    .about-me-content-2 {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    /* .about-me-1 {
+        width: 3.2rem;
+    } */
+
+    .experience {
+        width: auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .project-para {
+        margin: 2.5rem;
+    }
+
+    .project-heading {
+        margin-left: 2.5rem;
+    }
+
+    .project-wrapper {
+        margin-left: 2.5rem;
+    }
+
+    .skills {
+        margin-top: 3rem;
+        width: auto;
+    }
+
+    .about-me-sub-heading {
+        font-size: 2.4rem;
+    }
+
+    .about-me-description {
+        line-height: 1.5rem;
+    }
+
+    .project-card {
+        width: auto;
+    }
+
+    .project-heading {
+        font-size: 3.2rem;
+    }
+
+    .contact-description {
+        width: auto;
+    }
+
+    .contact-image {
+        position: relative;
+        bottom: 0;
+        height: 14rem;
+        width: 22rem;
+        margin: auto;
+        right: 4.5rem;
+        top: auto;
+    }
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 830px) {
+    .header-computer-image {
+        display: none;
+    }
+}
+
+/* @media screen and (max-width: 761px) {
+    .header-computer-image {
+        display: none;
+    }
+} */
+
+@media screen and (min-width: 571px) and (max-width: 760px) {
+    .header-computer-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 544px) and (max-width: 570px) {
+    .header-computer-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 539px) {
+    .header-computer-image {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+
+
+    .header-btn-1 {
+        width: 11rem;
+    }
+
+    .header-btn-2 {
+        width: 11rem;
+    }
+
+    .header-image {
+        height: 20rem;
+    }
+
+    .header-computer-image {
+        height: 20rem;
+        bottom: auto;
+    }
+
+    .about-me-heading {
+        font-size: 2.2rem;
+    }
+
+    .about-me-1 {
+        margin: auto;
+    }
+
+    .about-me-description {
+        font-size: 1.2rem;
+    }
+
+    .experience-sub-heading {
+        font-size: 1.3rem;
+    }
+
+    .experiece-text {
+        font-size: 1.2rem;
+    }
+
+    .logo-images {
+        margin-right: 2rem;
+    }
+
+    .project-card-btn {
+        width: 10rem;
+        margin-right: .9rem;
+    }
+
+    .contact-heading {
+        font-size: 3.0rem;
+    }
+
+    #phone {
+        margin-left: 1rem;
+    }
+
+    .contact-image {
+        width: 15rem;
+        height: 10rem;
+        right: 3rem;
+        top: auto;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    
+    .header-name-1 {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1.9rem;
+    }
+
+
+    .para-statement {
+        font-size: 1.2rem;
+    }
+
+    .header-image {
+        height: 15rem;
+    }
+
+    .about-me-content-2 {
+        margin: 0;
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+    }
+
+    .contact-heading {
+        font-size: 2.0rem;
+        margin-left: 2.5rem;
+    }
+
+    .project-wrapper {
+        margin-left: 1.5rem;
+    }
+
+    .project-para {
+        margin-left: 1.5rem;
+    }
+
+    .project-heading {
+        margin-left: 1.5rem;
+    }
+
+    .contact-para {
+        margin-left: 2.5rem;
+    }
+
+    .contact-description {
+        font-size: 1.4rem;
+        margin-left: 2.5rem;
+    }
+
+    .contact-btn-parent {
+        margin-top: 2rem;
+    }
+
+    .conatct-btn {
+        margin-left: 2.5rem;
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .contact-image {
+        width: 15rem;
+        right: 3rem;
+    }
+
+}
+
+/* responsive media queries ends */
