@@ -72,4 +72,3 @@ const scroll_3 = new SmoothScroll('.nav-item a[href*="#skills"]', {
   speed: 600
 });
 
-
