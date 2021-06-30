@@ -100,6 +100,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 5rem;
+    
 }
 
 .header-name-1 {
@@ -180,10 +181,17 @@ body {
     Height: 51.74rem;
     right: 5%;
 }
+
+#creative {
+    margin: 5rem 0;
+}
 /* header end */
 
 /* about-me starts */
 
+.about-me {
+    margin-bottom: 5rem;
+}
 
 
 .about-me-para {
@@ -284,25 +292,63 @@ body {
     /* margin-left: 18rem; */
 }
 
-/* .skills {
-    width: 50%;
-    margin-left: 18rem;
-}
 
-.skills-images {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-} */
 
-.logo-images {
-    margin-right: 4rem;
-    margin-bottom: 4rem;
-    border-radius: .8rem;
-}
 
 /* about-me ends */
+
+/* Skills  */
+
+
+#skills {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #9eb9f8;
+    /* background: #ffe89b; */
+ }
+
+ .skills-sub-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 130%;
+    color: white;
+    margin-bottom: 8rem;
+    text-transform: uppercase;
+ }
+ 
+ .skills-images {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 3rem;
+     margin-bottom: 1rem;
+ }
+
+ .logo-images {
+    margin-bottom: 4rem;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+
+.skill-headings {
+    align-self: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+
+/* End of Skills */
 
 /* project starts */
 
